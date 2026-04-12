@@ -12,11 +12,7 @@ class Solution {
 
             }
             else{
-                
-                if(f<s && nums[i]>s){
-                    return true;
-
-                }
+                return true;
             }
         }
         return false;
