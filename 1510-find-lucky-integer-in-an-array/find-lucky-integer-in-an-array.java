@@ -10,7 +10,7 @@ class Solution {
 
 
         }
-        int max=0;
+        int max=-1;
 
         for(int x : hm.keySet()){
             int val=hm.get(x);
@@ -21,10 +21,8 @@ class Solution {
 
        
 
-        if(max > 0){
-            return max;
-        }
-        return -1;
+        
+        return max;
 
 
 
